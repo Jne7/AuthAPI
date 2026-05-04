@@ -23,10 +23,3 @@ API REST desarrollada en ASP.NET Core que permite la autenticación de usuarios 
 3. El usuario inicia sesión  
 4. Si las credenciales son correctas, se genera un token JWT  
 5. Ese token se usa para acceder a endpoints protegidos  
-
-## Ejecutar el proyecto
-1. Clonar el repositorio  
-2. Abrir en Visual Studio 2022  
-3. Configurar `appsettings.json`
-4. Ejecutar migraciones si aplica:
-   update-database
