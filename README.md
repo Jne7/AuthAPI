@@ -1,25 +1,20 @@
-#  API REST con Autenticación (ASP.NET Core)
+# API de Autenticación Segura
 
-##  Descripción
-API REST desarrollada en ASP.NET Core que permite la autenticación de usuarios mediante login seguro. Implementa hashing de contraseñas y generación de tokens JWT
+API REST desarrollada con ASP.NET Core que implementa autenticación basada en JWT y manejo seguro de usuarios.
 
-## Funcionalidades
-- Registro de usuarios
-- Inicio de sesión
-- Hash de contraseñas para almacenamiento seguro
-- Generación de token JWT al autenticarse
-- Validación de usuarios mediante token
+##  Funcionalidades
+- Registro de usuarios con hash de contraseñas
+- Login con validación de credenciales
+- Generación de token JWT
+- Protección de endpoints mediante autorización
+  
+##  Tecnologías
+- ASP.NET Core Web API
+- Entity Framework Core
+- SQL Server
+- JWT Authentication
 
-##  Tecnologías utilizadas
-- ASP.NET Core Web API  
-- C#  
-- Entity Framework Core  
-- SQL Server  
-- JWT Authentication  
-
-##  Ejemplo de flujo
-1. El usuario se registra  
-2. La contraseña se guarda en forma de hash  
-3. El usuario inicia sesión  
-4. Si las credenciales son correctas, se genera un token JWT  
-5. Ese token se usa para acceder a endpoints protegidos  
+## Seguridad
+- Contraseñas almacenadas como hash 
+- Autenticación mediante tokens JWT
+- Protección de rutas con autorización
